@@ -2,6 +2,9 @@
 
 Plantilla para desarrollo de proyectos [React](https://es.reactjs.org/) estilizada con [Material-UI](https://material-ui.com/) con componentes de diseño pre-instalados.
 
+## Demo
+
+Demo: [https://artikaweb.com/react/template-r-mui/](https://artikaweb.com/react/template-r-mui/)
 
 ## Dependencias instaladas
 
