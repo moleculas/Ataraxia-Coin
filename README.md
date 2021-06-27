@@ -1,6 +1,66 @@
-# Getting Started with Create React App
+# Plantilla de inicio React con Material UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Plantilla para desarrollo de proyectos [React](https://es.reactjs.org/) estilizada con [Material-UI](https://material-ui.com/) con componentes de diseño pre-instalados.
+
+
+## Dependencias instaladas
+
+Eliminar de package.json en caso de no necesitarlas antes de `npm install`.
+
+### `material-ui`
+
+Framework para diseño.
+
+`npm install @material-ui/core`
+
+### `@material-ui/icons`
+
+Para la gestión de iconos.
+
+`npm install @material-ui/icons`
+
+### `@material-ui/lab`
+
+Para gestionar material UI alerts.
+
+`npm install @material-ui/lab`
+
+### `react-router-dom`
+
+Para la gestión de rutas.
+
+`npm install react-router-dom`
+
+### `react-syntax-highlighter`
+
+Para mostrar bloques de código en React.
+
+`npm install react-syntax-highlighter`
+
+### `clsx`
+
+Para mostrar className condicionalmente.
+
+`npm install --save clsx`
+
+### `material-ui-pickers`
+
+Para gestionar datepickers.
+
+`npm install @material-ui/pickers@3.2.8`
+
+### `date-io/date-fns`
+
+Para gestionar datepickers.
+
+`npm install @date-io/date-fns@1.3.13`
+
+### `date-fns`
+
+Para gestionar datepickers.
+
+`npm install date-fns@2.8.1`
+
 
 ## Available Scripts
 
@@ -39,32 +99,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
