@@ -2,10 +2,34 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 contract AtaraxiaToken {
+    string public name = "Ataraxia Token";
+    string public symbol = "ATR";
+    string public standard = "Ataraxia Token v1.0";
     uint256 public totalSupply;
+    event Transfer(address indexed _from, address indexed _to, uint256 _value);
+    mapping(address => uint256) public balanceOf;
 
-    constructor() public{       
-        totalSupply = 1000000;
+    //constructor
+    constructor(uint256 _initialSupply) public {
+        balanceOf[msg.sender] = _initialSupply;
+        totalSupply = _initialSupply;
+        //asignar la cantidad inicial
+    }
+
+    //transferencias
+    function transfer(address _to, uint256 _value)
+        public
+        returns (bool success)
+    {
+        //excepción si la cuenta no tiene suficiente
+        require(balanceOf[msg.sender] >= _value);
+        //transferir el balance
+        balanceOf[msg.sender] -= _value;
+        balanceOf[_to] += _value;
+        //emitir evento
+        emit Transfer(msg.sender, _to, _value);
+        //retorna booleano
+        return true;
     }
 
     // contract AtaraxiaToken {
