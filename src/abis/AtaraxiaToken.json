@@ -1,0 +1,392 @@
+{
+  "contractName": "AtaraxiaToken",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/E/source/SMART-CONTRACTS/ataraxia-coin/src/contracts/AtaraxiaToken.sol\":\"AtaraxiaToken\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/source/SMART-CONTRACTS/ataraxia-coin/src/contracts/AtaraxiaToken.sol\":{\"keccak256\":\"0x0ce301f5c45ccbaf5e702a69dacbba3c0ec51a4257d70e3ec29f3b9ed16f13d1\",\"urls\":[\"bzz-raw://6bc210fa1cc06da7544e6e7f9ee88cda59a9789db202200fe1ffcdd95767242b\",\"dweb:/ipfs/QmSXX77spYA2yEpTCsAcNet5FCgiRwHTyJZwMeT3wymtXA\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50620f42406000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820ff9c5149326c8720e5b6c995538d043de138a1aecd654a77ee4f9a949670778664736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820ff9c5149326c8720e5b6c995538d043de138a1aecd654a77ee4f9a949670778664736f6c63430005100032",
+  "sourceMap": "69:2067:0:-;;;134:67;8:9:-1;5:2;;;30:1;27;20:12;5:2;134:67:0;186:7;172:11;:21;;;;69:2067;;;;;;",
+  "deployedSourceMap": "69:2067:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:2067:0;;;;;;;;;;;;;;;;;;;99:26;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract AtaraxiaToken {\r\n    uint256 public totalSupply;\r\n\r\n    constructor() public{       \r\n        totalSupply = 1000000;\r\n    }\r\n\r\n    // contract AtaraxiaToken {\r\n    //     string  public name = \"Ataraxia Token\";\r\n    //     string  public symbol = \"ATRT\";\r\n    //     string  public standard = \"Ataraxia Token v1.0\";\r\n    //     uint256 public totalSupply;\r\n\r\n    //     event Transfer(\r\n    //         address indexed _from,\r\n    //         address indexed _to,\r\n    //         uint256 _value\r\n    //     );\r\n\r\n    //     event Approval(\r\n    //         address indexed _owner,\r\n    //         address indexed _spender,\r\n    //         uint256 _value\r\n    //     );\r\n\r\n    //     mapping(address => uint256) public balanceOf;\r\n    //     mapping(address => mapping(address => uint256)) public allowance;\r\n\r\n    //    constructor (uint256 _initialSupply) {\r\n    //         balanceOf[msg.sender] = _initialSupply;\r\n    //         totalSupply = _initialSupply;\r\n    //     }\r\n\r\n    //     function transfer(address _to, uint256 _value) public returns (bool success) {\r\n    //         require(balanceOf[msg.sender] >= _value);\r\n\r\n    //         balanceOf[msg.sender] -= _value;\r\n    //         balanceOf[_to] += _value;\r\n\r\n    //         emit Transfer(msg.sender, _to, _value);\r\n\r\n    //         return true;\r\n    //     }\r\n\r\n    //     function approve(address _spender, uint256 _value) public returns (bool success) {\r\n    //         allowance[msg.sender][_spender] = _value;\r\n\r\n    //         emit Approval(msg.sender, _spender, _value);\r\n\r\n    //         return true;\r\n    //     }\r\n\r\n    //     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {\r\n    //         require(_value <= balanceOf[_from]);\r\n    //         require(_value <= allowance[_from][msg.sender]);\r\n\r\n    //         balanceOf[_from] -= _value;\r\n    //         balanceOf[_to] += _value;\r\n\r\n    //         allowance[_from][msg.sender] -= _value;\r\n\r\n    //         emit Transfer(_from, _to, _value);\r\n\r\n    //         return true;\r\n    //     }\r\n}\r\n",
+  "sourcePath": "E:/source/SMART-CONTRACTS/ataraxia-coin/src/contracts/AtaraxiaToken.sol",
+  "ast": {
+    "absolutePath": "/E/source/SMART-CONTRACTS/ataraxia-coin/src/contracts/AtaraxiaToken.sol",
+    "exportedSymbols": {
+      "AtaraxiaToken": [
+        12
+      ]
+    },
+    "id": 13,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 12,
+        "linearizedBaseContracts": [
+          12
+        ],
+        "name": "AtaraxiaToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "totalSupply",
+            "nodeType": "VariableDeclaration",
+            "scope": 12,
+            "src": "99:26:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "99:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 10,
+              "nodeType": "Block",
+              "src": "154:47:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 8,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 6,
+                      "name": "totalSupply",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "172:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "31303030303030",
+                      "id": 7,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "186:7:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1000000_by_1",
+                        "typeString": "int_const 1000000"
+                      },
+                      "value": "1000000"
+                    },
+                    "src": "172:21:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 9,
+                  "nodeType": "ExpressionStatement",
+                  "src": "172:21:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 11,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "145:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "154:0:0"
+            },
+            "scope": 12,
+            "src": "134:67:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 13,
+        "src": "69:2067:0"
+      }
+    ],
+    "src": "33:2105:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/E/source/SMART-CONTRACTS/ataraxia-coin/src/contracts/AtaraxiaToken.sol",
+      "exportedSymbols": {
+        "AtaraxiaToken": [
+          12
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "33:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            12
+          ],
+          "name": "AtaraxiaToken",
+          "scope": 13
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "totalSupply",
+              "scope": 12,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "99:7:0"
+              }
+            ],
+            "id": 3,
+            "name": "VariableDeclaration",
+            "src": "99:26:0"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 12,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4,
+                "name": "ParameterList",
+                "src": "145:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 5,
+                "name": "ParameterList",
+                "src": "154:0:0"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3,
+                              "type": "uint256",
+                              "value": "totalSupply"
+                            },
+                            "id": 6,
+                            "name": "Identifier",
+                            "src": "172:11:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "31303030303030",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "number",
+                              "type": "int_const 1000000",
+                              "value": "1000000"
+                            },
+                            "id": 7,
+                            "name": "Literal",
+                            "src": "186:7:0"
+                          }
+                        ],
+                        "id": 8,
+                        "name": "Assignment",
+                        "src": "172:21:0"
+                      }
+                    ],
+                    "id": 9,
+                    "name": "ExpressionStatement",
+                    "src": "172:21:0"
+                  }
+                ],
+                "id": 10,
+                "name": "Block",
+                "src": "154:47:0"
+              }
+            ],
+            "id": 11,
+            "name": "FunctionDefinition",
+            "src": "134:67:0"
+          }
+        ],
+        "id": 12,
+        "name": "ContractDefinition",
+        "src": "69:2067:0"
+      }
+    ],
+    "id": 13,
+    "name": "SourceUnit",
+    "src": "33:2105:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xA81f0D29bB0559a009c369b408d40e8883E9235c",
+      "transactionHash": "0xdb10d7e571306bc9e450c572f261a77895fd3006ec6c2638ad07e5b90faa1ca8"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-28T08:08:45.766Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
