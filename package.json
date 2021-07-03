@@ -2,7 +2,6 @@
   "name": "ataraxia-coin",
   "author": "isaias@artikaweb.com",
   "description": "Ataraxia Token Sale ICO",
-  "homepage": "http://desarrollos.artikaweb.com/react-SC/ataraxia-coin/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
