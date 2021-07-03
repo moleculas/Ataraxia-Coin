@@ -1,10 +1,13 @@
-# Plantilla de inicio React con Material UI
+# Ataraxia Token Sale ICO
 
-Plantilla para desarrollo de proyectos [React](https://es.reactjs.org/) estilizada con [Material-UI](https://material-ui.com/) con componentes de diseño pre-instalados.
+Codificación de criptomoneda basada en ERC-20. Implementación de ICO en Ethereum para venta de tokens.
+Proyecto desarrollado en Solidity + React, respaldado con Truffle + Ganache.
+El contrato sigue el standard para crear tokens de criptomonedas ERC-20  [https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
+
 
 ## Demo
 
-Demo: [https://artikaweb.com/react/template-r-mui/](https://artikaweb.com/react/template-r-mui/)
+Demo: [http://desarrollos.artikaweb.com/react-SC/ataraxia-coin/](http://desarrollos.artikaweb.com/react-SC/ataraxia-coin/)
 
 ## Dependencias instaladas
 
@@ -33,37 +36,6 @@ Para gestionar material UI alerts.
 Para la gestión de rutas.
 
 `npm install react-router-dom`
-
-### `react-syntax-highlighter`
-
-Para mostrar bloques de código en React.
-
-`npm install react-syntax-highlighter`
-
-### `clsx`
-
-Para mostrar className condicionalmente.
-
-`npm install --save clsx`
-
-### `material-ui-pickers`
-
-Para gestionar datepickers.
-
-`npm install @material-ui/pickers@3.2.8`
-
-### `date-io/date-fns`
-
-Para gestionar datepickers.
-
-`npm install @date-io/date-fns@1.3.13`
-
-### `date-fns`
-
-Para gestionar datepickers.
-
-`npm install date-fns@2.8.1`
-
 
 ## Available Scripts
 

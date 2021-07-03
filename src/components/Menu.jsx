@@ -32,15 +32,7 @@ const Menu = () => {
                         </ListItemIcon>
                         <ListItemText primary='Inicio' />
                     </ListItem>
-                </Link>
-                <Link to="/componentes" className={classes.link}>
-                    <ListItem button>
-                        <ListItemIcon>
-                            <SettingsInputCompositeIcon />
-                        </ListItemIcon>
-                        <ListItemText primary='Componentes' />
-                    </ListItem>
-                </Link>
+                </Link>               
                 <Divider />
             </List>
         </div>

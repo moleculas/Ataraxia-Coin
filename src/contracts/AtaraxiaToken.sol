@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+pragma solidity ^0.5.3;
 
 contract AtaraxiaToken {
     string public name = "Ataraxia Token";
@@ -21,7 +21,6 @@ contract AtaraxiaToken {
         totalSupply = _initialSupply;
         //asignar la cantidad inicial
     }
-
     //transferencias
     function transfer(address _to, uint256 _value)
         public

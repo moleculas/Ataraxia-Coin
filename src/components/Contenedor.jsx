@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './Navbar'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import ContenedorInterior from './ContenedorInterior'
 import ContenedorInicio from './ContenedorInicio'
 import { makeStyles, Hidden } from '@material-ui/core'
 import Cajon from './Cajon'
@@ -52,10 +51,7 @@ const Contenedor = () => {
                     <Switch>
                         <Route path="/" exact>
                             <ContenedorInicio />
-                        </Route>
-                        <Route path="/componentes">
-                            <ContenedorInterior />
-                        </Route>
+                        </Route>                        
                     </Switch>
                 </div>
             </Router>
